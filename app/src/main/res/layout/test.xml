@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/tv"
+              android:orientation="vertical">
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/WebSize"
+        android:indeterminate="false"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/pBar1"
+        android:layout_gravity="center_horizontal"
+        android:progressDrawable="@drawable/progress_color"
+        android:indeterminate="false" />
+
+
+    <im.delight.android.webview.AdvancedWebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Web1"
+        android:layout_gravity="center_horizontal"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/pBar2"
+        android:layout_gravity="center_horizontal"
+        android:progressDrawable="@drawable/progress_color"
+        android:indeterminate="false" />
+
+    <im.delight.android.webview.AdvancedWebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/web2"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity"
+    >
+    <item
+        android:id="@+id/history"
+        android:title="History" />
+    <item android:id="@+id/action_about" android:title="@string/action_about"
+        android:orderInCategory="900" app:showAsAction="never" />
+    <item android:id="@+id/action_Theme" android:title="@string/action_Theme"
+        android:orderInCategory="700" app:showAsAction="never" />
+    <item android:id="@+id/Action_AddTab" android:title="@string/action_Show"
+        android:orderInCategory="300"/>
+    <item android:id="@+id/Action_RemoveTab" android:title="@string/action_RemoveTab"
+        android:orderInCategory="302"/>
+    <item
+        android:id="@+id/Bookmarks"
+        android:title="Bookmarks" />
+    <item android:id="@+id/Split_pages"
+        android:title="@string/Multi_Window"
+        android:orderInCategory="600"
+        app:showAsAction="never" />
+
+
+
+
+</menu>

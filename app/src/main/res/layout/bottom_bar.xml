@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/colorAccentD"
+    android:orientation="vertical"
+    app:layout_anchorGravity="bottom">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tably"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:visibility="gone">
+
+    </android.support.design.widget.TabLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/NavTab"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorAccentD"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        app:layout_anchorGravity="bottom">
+
+        <ImageButton
+            android:id="@+id/backkbutt"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccentD"
+            app:srcCompat="?android:attr/actionModeCloseDrawable" />
+
+        <ImageButton
+            android:id="@+id/forwardBut"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccentD"
+            android:rotation="180"
+            app:srcCompat="?android:attr/actionModeCloseDrawable" />
+
+        <ImageButton
+            android:id="@+id/refreshBut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccentD"
+            android:rotation="180"
+            app:srcCompat="@drawable/ic_action_refresh" />
+
+        <TextView
+            android:id="@+id/BackTabButt"
+            android:layout_width="29dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.6"
+            android:background="@color/colorAccentD"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <ImageButton
+            android:id="@+id/NavmenuBut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@color/colorAccentD"
+            app:srcCompat="@drawable/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/menuBut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@color/colorAccentD"
+            app:srcCompat="@drawable/ic_action_navigation_more_vert" />
+    </LinearLayout>
+
+</LinearLayout>

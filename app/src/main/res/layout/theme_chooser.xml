@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_below="@+id/linearLayout"
+        android:weightSum="8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView12"
+            android:background="#ce5320"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:onClick="getColor"
+            android:text="#FFce5320"
+            android:textColor="#ce5320"
+            android:tag="#FFB94B1D"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView13"
+            android:background="#655c59"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:onClick="getColor"
+            android:text="#FF655c59"
+            android:textColor="#655c59"
+            android:tag="#FF554E4B"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView14"
+            android:background="#65473a"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:onClick="getColor"
+            android:text="#FF65473a"
+            android:textColor="#65473a"
+            android:tag="#FF523A2F"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView15"
+            android:background="#0d596a"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:onClick="getColor"
+            android:text="#FF0d596a"
+            android:textColor="#0d596a"
+            android:tag="#FF0A4B5A"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView16"
+
+            android:background="#8d3309"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:onClick="getColor"
+            android:text="#FF8d3309"
+            android:textColor="#8d3309"
+            android:tag="#FF7D2D08"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView17"
+            android:background="#a705b2"
+            android:layout_row="1"
+            android:layout_column="5"
+            android:onClick="getColor"
+            android:text="#FFa705b2"
+            android:textColor="#a705b2"
+            android:tag="#FF8F0399"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView18"
+            android:background="#6b0404"
+            android:layout_row="1"
+            android:layout_column="6"
+            android:onClick="getColor"
+            android:text="#FF6b0404"
+            android:textColor="#6b0404"
+            android:tag="#FF540303"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView19"
+            android:background="#544567"
+            android:layout_row="1"
+            android:layout_column="7"
+            android:onClick="getColor"
+            android:text="#FF544567"
+            android:textColor="#544567"
+            android:tag="#FF483B58"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="8"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView3"
+            android:background="#de111b"
+            android:text="#FFde111b"
+            android:onClick="getColor"
+            android:tag="#FFC30D16"
+            android:textSize="22sp"
+            android:textColor="#de111b"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView6"
+            android:background="#b4b137"
+            android:onClick="getColor"
+            android:textColor="#b4b137"
+            android:text="#FFb4b137"
+            android:tag="#FF95922C"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView5"
+            android:background="#7f289c"
+            android:onClick="getColor"
+            android:textColor="#7f289c"
+            android:text="#FF7f289c"
+            android:tag="#FF6E1E89"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView9"
+            android:background="#2b2a2a"
+            android:onClick="getColor"
+            android:text="#FF2b2a2a"
+            android:textColor="#2b2a2a"
+            android:tag="#FF232222"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView7"
+            android:background="#38de22"
+            android:onClick="getColor"
+            android:textColor="#38de22"
+            android:text="#FF38de22"
+            android:tag="#FF2EBA1B"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView4"
+            android:background="#b1297f"
+            android:onClick="getColor"
+            android:text="#FFb1297f"
+            android:textColor="#b1297f"
+            android:tag="#FF95216A"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView10"
+            android:background="#2ac0a9"
+            android:onClick="getColor"
+            android:text="#FF2ac0a9"
+            android:textColor="#2ac0a9"
+            android:tag="#FF22A08D"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView11"
+            android:background="#6c2b10"
+            android:layout_row="0"
+            android:layout_column="7"
+            android:onClick="getColor"
+            android:text="#FF6c2b10"
+            android:textColor="#6c2b10"
+            android:tag="#FF5A230D"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true" />
+    </LinearLayout>
+
+</RelativeLayout>

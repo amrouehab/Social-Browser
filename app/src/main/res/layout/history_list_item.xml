@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:descendantFocusability="blocksDescendants"
+                android:layout_height="wrap_content"
+                android:background="@color/cardview_light_background">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinkUrl"
+        android:layout_below="@+id/LinkNAme"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" android:text="sdad" android:textSize="19sp"
+        android:maxLines="1" android:singleLine="true" android:layout_toLeftOf="@+id/Xbut"
+        android:layout_toStartOf="@+id/Xbut"/>
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinkNAme"
+        android:textSize="22sp" android:maxLines="1" android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+        android:singleLine="true" android:layout_toLeftOf="@+id/Xbut"
+        android:layout_toStartOf="@+id/Xbut"/>
+    <Button
+        android:text="X"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:id="@+id/Xbut"
+        android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" tools:text="X"
+        android:background="@color/cardview_light_background" android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDarkW"
+        android:backgroundTint="@color/cardview_light_background"/>
+</RelativeLayout>

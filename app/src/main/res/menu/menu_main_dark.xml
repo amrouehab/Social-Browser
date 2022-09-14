@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_about" android:title="@string/action_about"
+        android:orderInCategory="500" app:showAsAction="never" />
+    <item android:id="@+id/action_Theme" android:title="@string/action_Theme"
+        android:orderInCategory="200" app:showAsAction="never" />
+    <item android:id="@+id/Action_AddTab" android:title="@string/action_Show"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_fullscreen"
+          android:icon="@android:drawable/arrow_up_float"
+          android:title="@string/action_fullscreen"
+          app:showAsAction="collapseActionView|ifRoom" />
+
+
+
+</menu>

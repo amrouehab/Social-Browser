@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible">
+
+    <Button
+        android:id="@+id/add_backtab"
+        android:layout_width="62dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/homeClick"
+        android:layout_toEndOf="@+id/homeClick"
+        android:layout_toRightOf="@+id/homeClick"
+        android:background="@android:color/transparent"
+        android:contextClickable="false"
+        android:text="+"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="75sp"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/delBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/homeClick"
+        android:layout_toLeftOf="@+id/homeClick"
+        android:layout_toStartOf="@+id/homeClick"
+        android:background="@android:color/transparent"
+
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_menu_delete"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/homeClick"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_action_action_home"
+        android:visibility="visible" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerListt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/add_backtab"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:foregroundGravity="center"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/backTabAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/homeClick"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="155dp"
+        android:gravity="center"
+        android:text="No opened  Back tabs "
+        android:textColor="@color/colorAccentD"
+        android:textSize="24sp"
+        android:typeface="serif"
+        android:visibility="visible" />
+
+</RelativeLayout>

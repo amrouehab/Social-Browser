@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_below="@+id/progressBar2"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/cardview_light_background"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/progress_color" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/SWLY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/progressBar2"
+        tools:context=".MainActivity$PlaceholderFragment">
+
+        <im.delight.android.webview.AdvancedWebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignWithParentIfMissing="false"
+            android:clipToPadding="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+ </RelativeLayout>
+
+
+
